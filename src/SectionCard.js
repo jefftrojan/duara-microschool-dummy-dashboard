@@ -14,7 +14,7 @@ function SectionCard({ title, content }) {
       <Card.Body>
         <Card.Title>{title}</Card.Title>
         <Card.Text>{content}</Card.Text>
-        <Button variant="primary" onClick={handleEditClick}>Edit</Button>
+        <Button variant="primary" onClick={handleEditClick}>Manage</Button>
       </Card.Body>
       
       <EditModal

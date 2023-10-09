@@ -1,0 +1,36 @@
+.preloader {
+    height: 100vh;
+    width: 100%;
+    background: hsl(36, 96%, 61%);
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 55;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.preloader .texts-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 470px;
+    width: 850px;
+    font-size: 25px;
+    font-weight: 600;
+    overflow: hidden;
+    color: #fff;
+    animation: bounce 1s ease infinite; /* Adjust the duration and easing as needed */
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px); /* Adjust the bounce height as needed */
+    }
+}

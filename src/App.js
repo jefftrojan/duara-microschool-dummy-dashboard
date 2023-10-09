@@ -4,11 +4,11 @@ import './App.css';
 import NavbarComponent from './Navbar';
 import SchoolInfoCard from './SchoolInfoCard';
 import Dashboard from './Dashboard';
-import logo from './duara-logo-text.png';
-
+import PreLoader from './preloader';
 function App() {
   return (
     <Router>
+      <PreLoader />
       <div className="App">
         <NavbarComponent />
         

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Pie } from 'react-chartjs-2';
-import {Chart, ArcElement} from 'chart.js'
-Chart.register(ArcElement)
+import { Chart, ArcElement } from 'chart.js';
+Chart.register(ArcElement);
 
 function PieChart() {
   // Dummy data for the pie chart
@@ -16,9 +16,17 @@ function PieChart() {
     ],
   };
 
+  const legendOptions = {
+    position: 'right',
+    align: 'start', // Align the legend to the start of the container
+    labels: {
+      boxWidth: 10, // Adjust the width of the legend color box
+    },
+  };
+
   return (
     <div className="d-flex justify-content-center align-items-center" style={{ height: '300px' }}>
-      <Pie data={data} />
+      <Pie data={data} options={{ legend: legendOptions }} />
     </div>
   );
 }

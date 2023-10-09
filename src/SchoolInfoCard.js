@@ -3,7 +3,7 @@ import { Card, Button, Form } from 'react-bootstrap';
 
 function SchoolInfoCard() {
   const [isEditing, setIsEditing] = useState(false);
-  const [schoolName, setSchoolName] = useState('Micro-school Name');
+  const [schoolName, setSchoolName] = useState('Name: Duara-test Microschool');
   const [location, setLocation] = useState('Nairobi, Kenya');
   const [established, setEstablished] = useState('January 2024');
 
