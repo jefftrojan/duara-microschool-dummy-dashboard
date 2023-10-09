@@ -5,7 +5,7 @@ function EditModal({ isOpen, onClose, title, content }) {
   return (
     <Modal show={isOpen} onHide={onClose}>
       <Modal.Header closeButton>
-        <Modal.Title>Edit {title}</Modal.Title>
+        <Modal.Title>Manage {title}</Modal.Title>
       </Modal.Header>
       <Modal.Body>
         {/* Replace the following input with your editing component */}
