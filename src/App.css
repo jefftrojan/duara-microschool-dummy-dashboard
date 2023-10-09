@@ -1,0 +1,40 @@
+/* src/App.css */
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8d57e; /* Yellow-orange background color */
+}
+
+/* Header styles */
+.App-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #ffaa3e; /* Orange header background color */
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Box shadow for the header */
+}
+
+/* Logo styles */
+.App-logo {
+  width: 100px; /* Adjust the size as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Navigation styles */
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+/* Add margin and padding as needed for other components */

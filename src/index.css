@@ -1,0 +1,29 @@
+/* global.css */
+
+/* Remove borders for all elements */
+* {
+  border: none !important;
+  outline: none !important;
+}
+
+/* Add box shadow and drop shadow to all elements */
+/* global.css */
+
+/* Add box shadow and drop shadow to all elements */
+.card {
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1) !important;
+  filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.1)) !important;
+}
+
+
+/* Change background color to yellow-orange */
+body {
+  background-color: #FFA500 !important; /* Yellow-orange color */
+}
+
+/* Use thick fonts for all text */
+* {
+  font-weight: 700 !important; /* Thick font */
+}
+
+/* Customize additional styles as needed */
