@@ -16,12 +16,11 @@ body {
   padding: 1rem;
   background-color: #ffaa3e; /* Orange header background color */
   color: white;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Box shadow for the header */
 }
 
 /* Logo styles */
 .App-logo {
-  width: 300px; /* Adjust the size as needed */
+  width: 500px; /* Adjust the size as needed */
   height: auto; /* Maintain aspect ratio */
 }
 

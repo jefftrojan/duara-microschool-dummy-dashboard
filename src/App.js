@@ -11,9 +11,7 @@ function App() {
     <Router>
       <div className="App">
         <NavbarComponent />
-        <header className="App-header">
-          <img src={logo} alt="Logo" className="App-logo" />
-        </header>
+        
         <SchoolInfoCard />
 
         <Routes>
